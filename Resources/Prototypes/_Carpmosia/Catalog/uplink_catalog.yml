@@ -35,3 +35,24 @@
   - !type:BuyerAntagCondition
     whitelist:
     - NukeopsCommander
+
+- type: listing
+  id: UplinkVoiceMaskImplant
+  name: uplink-nekrometamorpho-implanter-name
+  description: uplink-nekrometamorpho-implanter-desc
+  icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
+  productEntity: NekrometamorphoImplanter
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 0
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkObjective
+  - conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 1
+    - !type:BuyerObjectiveWhitelistCondition
+      whitelist:
+        components:
+        - HijackTradeStationCondition

@@ -1,0 +1,7 @@
+- type: entity
+  id: NekrometamorphoImplanter
+  name: mekrometamorpho implanter
+  parent: BaseImplantOnlyImplanter
+  components:
+  - type: Implanter
+    implant: RadioImplantCentcomm
