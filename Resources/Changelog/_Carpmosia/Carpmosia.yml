@@ -2816,4 +2816,19 @@
   id: 410
   time: '2026-10-06T17:06:28.0000000+00:00'
   url: https://github.com/carpmosia/carpmosia/pull/585
+- author: Atakku
+  changes:
+  - message: Most remaining walls and windows have been reverted to the old classic
+      sprites
+    type: Fix
+  id: 411
+  time: '2026-10-12T08:44:55.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/654
+- author: Kingwawa & GlupiyBrush
+  changes:
+  - message: Defibrillator cabinets now show the charger states.
+    type: Tweak
+  id: 412
+  time: '2026-10-09T00:09:41.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/537
 Order: -1
