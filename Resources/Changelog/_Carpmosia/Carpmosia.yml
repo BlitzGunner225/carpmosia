@@ -2831,4 +2831,18 @@
   id: 412
   time: '2026-10-09T00:09:41.0000000+00:00'
   url: https://github.com/carpmosia/carpmosia/pull/537
+- author: Atakku
+  changes:
+  - message: Inline devices are no longer broken
+    type: Fix
+  id: 413
+  time: '2026-10-12T09:29:40.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/656
+- author: Atakku
+  changes:
+  - message: Fixed missing lv cable in Amber's SAI core
+    type: Fix
+  id: 414
+  time: '2026-10-12T09:28:58.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/657
 Order: -1
