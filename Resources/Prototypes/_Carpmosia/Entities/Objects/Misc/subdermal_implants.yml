@@ -11,11 +11,8 @@
       components:
       - Cuffable # useless if you cant be cuffed
   - type: TriggerOnActivateImplant
-  - type: EntityTableSpawner
-    table: !type:GroupSelector
-      children:
-      - id: MobAngryBee
-        amount: 12
+  - type: SpawnOnTrigger
+    proto: MobAngryBee
+  - type: DeleteOnTrigger
 #  - type: GibOnTrigger
 #    targetUser: true
-#    deleteItems: true
