@@ -12,7 +12,7 @@
       - Cuffable # useless if you cant be cuffed
   - type: TriggerOnActivateImplant
   - type: SpawnOnTrigger
-    proto: MobAngryBee
+    proto: SpawnMobBeeSwarm
   - type: DeleteOnTrigger
 #  - type: GibOnTrigger
 #    targetUser: true

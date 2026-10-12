@@ -171,3 +171,14 @@
       - ReagentId: Water
         Quantity: 12
   - type: ZombieImmune
+
+  - type: entity
+  parent: SpawnMobBee
+  id: SpawnMobBeeSwarm
+  name: Bee Swarm Spawner
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: 0
+      sprite: Mobs/Animals/bee.rsi
