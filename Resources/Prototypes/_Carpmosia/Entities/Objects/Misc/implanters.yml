@@ -1,7 +1,7 @@
 - type: entity
   id: NekrometamorphoImplanter
-  name: mekrometamorpho implanter
-  parent: BaseImplantOnlyImplanter
+  name: nekrometamorpho implanter
+  parent: BaseImplantOnlyImplanterSyndi
   components:
   - type: Implanter
-    implant: RadioImplantCentcomm
+    implant: NekrometamorphoImplant

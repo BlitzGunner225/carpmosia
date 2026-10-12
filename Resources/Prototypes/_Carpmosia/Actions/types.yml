@@ -1,0 +1,21 @@
+# base actions
+
+- type: entity
+  parent: BaseImplantAction
+  id: ActionActivateNekrometamorphoImplant
+  name: Activate Nekrometamorpho
+  description: Triggers a small EMP pulse around you
+  components:
+  - type: LimitedCharges
+    maxCharges: 1
+  - type: DangerousAction
+  - type: Action
+    checkCanInteract: false
+    useDelay: 5
+    itemIconStyle: BigAction
+    priority: -20
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/empgrenade.rsi
+    layers:
+    - state: icon
+      map: ["enum.ActionVisuals.Icon"]
