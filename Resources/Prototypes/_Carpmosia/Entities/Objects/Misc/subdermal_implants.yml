@@ -10,9 +10,12 @@
     whitelist:
       components:
       - Cuffable # useless if you cant be cuffed
+  - type: TriggerOnMobstateChange
+    mobState:
+    - Dead
   - type: TriggerOnActivateImplant
   - type: SpawnOnTrigger
-    proto: SpawnMobBeeSwarm
+    proto: MobBeeAngrySwarm
   - type: DeleteOnTrigger
-#  - type: GibOnTrigger
-#    targetUser: true
+  - type: GibOnTrigger
+    targetUser: true

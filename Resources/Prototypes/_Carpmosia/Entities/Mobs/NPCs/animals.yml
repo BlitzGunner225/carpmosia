@@ -172,13 +172,33 @@
         Quantity: 12
   - type: ZombieImmune
 
-  - type: entity
-  parent: SpawnMobBee
-  id: SpawnMobBeeSwarm
-  name: Bee Swarm Spawner
+- type: entity
+  parent: MarkerBase
+  id: SpawnMobBeeAngry
+  name: Angry Bee Spawner
   components:
   - type: Sprite
     layers:
     - state: green
     - state: 0
       sprite: Mobs/Animals/bee.rsi
+  - type: ConditionalSpawner
+    prototypes:
+    - MobAngryBee
+
+- type: entity
+  parent: MarkerBase
+  id: MobBeeAngrySwarm
+  name: Angry Bee Swarm
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - state: 0
+      sprite: Mobs/Animals/bee.rsi
+  - type: EntityTableSpawner
+    deleteSpawnerAfterSpawn: false
+    table:
+      id: SpawnMobBeeAngry
+      amount: 20
+

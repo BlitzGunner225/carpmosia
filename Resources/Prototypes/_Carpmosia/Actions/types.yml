@@ -4,10 +4,8 @@
   parent: BaseImplantAction
   id: ActionActivateNekrometamorphoImplant
   name: Activate Nekrometamorpho
-  description: Triggers a small EMP pulse around you
+  description: Triggers your corpse to morph into a swarm of bees.
   components:
-  - type: LimitedCharges
-    maxCharges: 1
   - type: DangerousAction
   - type: Action
     checkCanInteract: false
@@ -15,7 +13,7 @@
     itemIconStyle: BigAction
     priority: -20
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/empgrenade.rsi
     layers:
-    - state: icon
-      map: ["enum.ActionVisuals.Icon"]
+    - state: green
+    - state: 0
+      sprite: Mobs/Animals/bee.rsi
