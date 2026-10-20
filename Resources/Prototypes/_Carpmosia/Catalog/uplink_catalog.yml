@@ -37,7 +37,7 @@
     - NukeopsCommander
 
 - type: listing
-  id: UplinkVoiceMaskImplant
+  id: UplinkNekrometamorphoImplanter
   name: uplink-nekrometamorpho-implanter-name
   description: uplink-nekrometamorpho-implanter-desc
   icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
