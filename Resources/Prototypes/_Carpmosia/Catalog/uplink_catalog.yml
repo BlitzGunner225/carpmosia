@@ -55,4 +55,4 @@
     - !type:BuyerObjectiveWhitelistCondition
       whitelist:
         components:
-        - HijackTradeStationCondition
+        - DieCondition
