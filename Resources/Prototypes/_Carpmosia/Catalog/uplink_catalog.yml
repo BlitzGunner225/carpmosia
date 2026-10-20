@@ -44,9 +44,9 @@
   productEntity: NekrometamorphoImplanter
   discountCategory: usualDiscounts
   discountDownTo:
-    Telecrystal: 0
+    Telecrystal: 2
   cost:
-    Telecrystal: 1
+    Telecrystal: 4
   categories:
   - UplinkObjective
   - conditions:
