@@ -51,7 +51,7 @@
   - UplinkObjective
   - conditions:
     - !type:ListingLimitedStockCondition
-      stock: 1
+      stock: 2
     - !type:BuyerObjectiveWhitelistCondition
       whitelist:
         components:
