@@ -2,14 +2,11 @@
   parent: BaseSubdermalImplant
   id: NekrometamorphoImplant
   name: nekrometamorpho implant
-  description: This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
+  description: This implant either on command or after death will morph your body into a swarm of bees. No more revivals, just one chance.
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
     implantAction: ActionActivateNekrometamorphoImplant
-    whitelist:
-      components:
-      - Cuffable # useless if you cant be cuffed
   - type: TriggerOnMobstateChange
     mobState:
     - Dead
