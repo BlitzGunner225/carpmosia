@@ -197,8 +197,6 @@
     - state: 0
       sprite: Mobs/Animals/bee.rsi
   - type: EntityTableSpawner
-    deleteSpawnerAfterSpawn: true
     table:
       id: SpawnMobBeeAngry
       amount: 20
-
