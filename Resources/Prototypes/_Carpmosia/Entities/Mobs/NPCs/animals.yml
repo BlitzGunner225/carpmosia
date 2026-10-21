@@ -188,7 +188,7 @@
 
 - type: entity
   parent: MarkerBase
-  id: MobBeeAngrySwarm
+  id: SpawnMobBeeAngrySwarm
   name: Angry Bee Swarm
   components:
   - type: Sprite
@@ -197,7 +197,7 @@
     - state: 0
       sprite: Mobs/Animals/bee.rsi
   - type: EntityTableSpawner
-    deleteSpawnerAfterSpawn: false
+    deleteSpawnerAfterSpawn: true
     table:
       id: SpawnMobBeeAngry
       amount: 20
