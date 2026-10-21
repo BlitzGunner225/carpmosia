@@ -42,6 +42,8 @@
   description: uplink-nekrometamorpho-implanter-desc
   icon: { sprite: Mobs/Animals/bee.rsi, state: dead }
   productEntity: NekrometamorphoImplanter
+  cost:
+    Telecrystal: 3
   categories:
   - UplinkObjective
   discountCategory: usualDiscounts
