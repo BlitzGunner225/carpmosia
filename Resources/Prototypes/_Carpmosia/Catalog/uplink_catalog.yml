@@ -42,17 +42,13 @@
   description: uplink-nekrometamorpho-implanter-desc
   icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: freedom }
   productEntity: NekrometamorphoImplanter
-  discountCategory: usualDiscounts
-  discountDownTo:
-    Telecrystal: 2
-  cost:
-    Telecrystal: 4
   categories:
   - UplinkObjective
-  - conditions:
-    - !type:ListingLimitedStockCondition
-      stock: 1
-    - !type:BuyerObjectiveWhitelistCondition
-      whitelist:
-        components:
-        - DieCondition
+  discountCategory: usualDiscounts
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+  - !type:BuyerObjectiveWhitelistCondition
+    whitelist:
+      components:
+      - DieCondition
