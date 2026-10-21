@@ -40,7 +40,7 @@
   id: UplinkNekrometamorphoImplant
   name: uplink-nekrometamorpho-implanter-name
   description: uplink-nekrometamorpho-implanter-desc
-  icon: { sprite: Interface/Actions/voice-mask.rsi, state: icon }
+  icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: freedom }
   productEntity: NekrometamorphoImplanter
   discountCategory: usualDiscounts
   discountDownTo:
