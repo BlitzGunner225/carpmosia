@@ -46,7 +46,6 @@
     Telecrystal: 3
   categories:
   - UplinkObjective
-  discountCategory: usualDiscounts
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
