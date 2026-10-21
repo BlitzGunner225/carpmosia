@@ -12,7 +12,7 @@
     - Dead
   - type: TriggerOnActivateImplant
   - type: SpawnOnTrigger
-    proto: MobBeeAngrySwarm
+    proto: SpawnMobBeeAngrySwarm
   - type: DeleteOnTrigger
   - type: GibOnTrigger
     targetUser: true
